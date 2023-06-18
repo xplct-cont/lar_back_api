@@ -8,7 +8,7 @@
         @vite('resources/css/app.css')
     </head>
     <body class="bg-slate-700">
-        <div class="container mx-auto min-h-screen">
+        <div class="container mx-auto min-h-screen" style="max-width: 80%;">
             <nav class="flex items-center justify-center">
                 <p class="text-white px-7 py-7 font-bold text-lg ">
                     XPLCT-CONT
@@ -17,7 +17,7 @@
                     <li class="list-none inline-block px-5">
 
                         <div class="dropdown">
-                            <button class="text-white px-4 py-2 focus:outline-none" onclick="toggleServicesDropdown()">
+                            <button class="text-white px-3 py-2 focus:outline-none" onclick="toggleServicesDropdown()">
                                 Services &#x25BE;
                             </button>
                             <div class="dropdown-content hidden bg-white text-gray-800 absolute top-14 mt-2 left-0 right-0 flex justify-center" id="servicesDropdownContent">
